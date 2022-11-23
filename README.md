@@ -13,7 +13,7 @@ N/A
 
 The website is built using HTML and CSS. To review the code, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. 
 
-![Horiseon digital marketing meeting](assets/images/screenshot.png)
+![Horiseon website](starter/assets/images/screenshot.png)
 
 ## Credits
 
