@@ -9,6 +9,12 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Style the anchor elements in the header */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 /* Style all header elements */
 header {
     padding: 20px;
@@ -46,10 +52,8 @@ header div ul li {
     margin-left: 25px;
 }
 
-/* Style the anchor elements in the header */
-a {
-    color: #ffffff;
-    text-decoration: none;
+p {
+    font-size: 16px;
 }
 
 /* Style the background image with the class name "hero" */
@@ -69,12 +73,8 @@ a {
     margin-left: 20px;
 }
 
-p {
-    font-size: 16px;
-}
-
-/* The same rules apply to 3 different selectors */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+/* Style all elements with the class name "section" */
+.section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -83,13 +83,13 @@ p {
     color: #ffffff;
 }
 
-/* The same rules apply to the images of 3 different selectors */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+/* Style the images within the class name "section" */
+.section img {
     max-height: 200px;
 }
 
-/* The same rules apply to the headings of 3 different selectors */
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+/* Style the h2 elements within the class name "section" */
+.section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -118,20 +118,20 @@ p {
     background-color: #2589bd;
 }
 
-/* The same rules apply to 3 different selectors */
-.benefit-lead, .benefit-brand, .benefit-cost {
+/* Style all elements with the class name "benefit" */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* The same rules apply to the headings of 3 different selectors */
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+/* Style the h3 elements within the class name "benefit" */
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* The same rules apply to the images of 3 different selectors */
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+/* Style the images within the class name "benefit" */
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
